@@ -1,0 +1,229 @@
+/* SELETORES PADRÃO */
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+  font-family: Consolas;
+  font-weight: 900;
+}
+
+img {
+  width: 200px;
+  display: inline-flex;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: #000;
+}
+
+li {
+  list-style: none;
+}
+
+/* INICIO DA TAG HEADER */
+
+button {
+  border: none;
+  background-color: #acacac;
+  padding: 5px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+header .naviHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+header .naviHeader button ion-icon {
+  font-weight: bold;
+}
+
+header .naviHeader img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+header .naviHeader .search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .naviHeader .search input {
+  padding: 4px 5px;
+  border-radius: 2px 0 0 2px;
+  border: solid #acacac;
+  border-right: none;
+  height: 20px;
+}
+
+header .naviHeader .search button {
+  border-radius: 0 2px 2px 0;
+  border: solid #acacac;
+  border-left: none;
+  height: 32px;
+}
+header .logoYoutube {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .logoYoutube p {
+  margin-left: 5px;
+}
+
+header .logoYoutube ion-icon {
+  color: red;
+}
+
+header .links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./imagens/fundoKenzie.jpg);
+  background-position: center;
+  height: 180px;
+}
+
+header .links ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 20px;
+  z-index: 1;
+}
+
+header .links ul li a {
+  background-color: white;
+  font-size: 1.5rem;
+  color: #000;
+  box-shadow: 5px 5px 5px 5px rgba(255, 255, 255, 0.45);
+  padding: 3px;
+  border-radius: 4px;
+  z-index: 1;
+}
+
+header .links ul li:hover a {
+  transform: translateY(-10px);
+}
+/* FIM DA TAG HEADER */
+
+/*INICIO TAG MAIN */
+
+main .description {
+  padding: 10px;
+}
+main .description ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+main .description ul li {
+  width: 100%;
+  margin-top: 10px;
+}
+
+main .logoKenzie img {
+  width: 100px;
+}
+
+main .containerVideos {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+main .boxVideos ul {
+  width: 400px;
+}
+main .boxVideos ul li {
+  font-size: 0.8rem;
+}
+
+main .boxVideos ul li {
+  margin-left: 10px;
+}
+
+main .boxVideos button {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+main .contentVideos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+main .listaDeFavoritos {
+  width: 300px;
+}
+main .listaDeFavoritos h3 {
+  background-color: #acacac;
+  padding: 30px;
+}
+main .listaDeFavoritos img {
+  width: 100px;
+}
+
+main .VideosFavorites {
+  border: solid #acacac 1px;
+  padding: 5px;
+  height: 400px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+}
+main div.boxVideosFavorites {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+main div.boxVideosFavorites p {
+  font-size: 0.7rem;
+}
+
+/* FIM DA TAG MAIN */
+
+/* INICIO DA TAG FOOTER */
+footer .container {
+  padding: 10px;
+  height: 150px;
+}
+footer .showVideos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+footer .showVideos img {
+  width: 100px;
+}
+
+footer .showVideos li {
+  font-size: 0.6rem;
+  margin-left: 3px;
+}
+
+.remove {
+  display: none;
+}
+
+.btn {
+  display: flex;
+}
